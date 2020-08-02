@@ -14,7 +14,7 @@
 
 分析 Queue 和 Priority Queue 的源码
 ---
-### Queue
+### * Queue
 `Queue`是队列，是一种先进先出的数据结构。<br>
 
 #### 内部数据结构<br>
@@ -37,7 +37,7 @@
 `E peek()`
      返回队列头部节点，但不移除队列头节点，如果队列为空，返回null。<br>
      
-### PriorityQueue
+### * PriorityQueue
 `PriorityQueue`是优先级队列，PriorityQueue是基于优先堆的一个无界队列，这个优先队列中的元素可以默认自然排序或者通过提供的Comparator（比较器）在队列实例化的时排序。<br>
 
 `PriorityQueue的实现使用了最小堆，堆的数据结构如下特点：`<br>
